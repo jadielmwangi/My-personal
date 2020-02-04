@@ -1,12 +1,17 @@
 #home{
     background-color: darkgrey;
+    background-image: url(jadiel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 nav{
     text-align: right;
     background-color: aliceblue;
 }
 nav li{
-display:inline;
+display:inline-block;
 margin-left: 30px;
 padding-bottom: 30px;
 padding-top: 30px;
